@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');@tailwind base;@tailwind components;@tailwind utilities;html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,sans-serif}h1,h2,h3{font-family:'Space Grotesk',Inter,sans-serif}.grid-glow{background-image:linear-gradient(rgba(148,163,184,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(148,163,184,.06) 1px,transparent 1px);background-size:42px 42px}.reveal{opacity:0;transform:translateY(28px)}.social{transition:.25s}.social:hover{transform:translateY(-4px)}
+
+:root{color-scheme:light}html.dark{color-scheme:dark}html.dark body{background:#020617;color:#f1f5f9}html.dark input,html.dark textarea,html.dark select{color:#f1f5f9;background-color:#0f172a;border-color:#334155}html.dark input::placeholder,html.dark textarea::placeholder{color:#64748b}html.dark option{background:#0f172a;color:#f1f5f9}a{transition:color .2s ease,background-color .2s ease,border-color .2s ease}
+
+.nav-active-line{position:absolute;left:0;right:0;bottom:-1px;height:2px;border-radius:999px;background:#ef4444;transform-origin:left;animation:navLineIn .22s ease-out}.nav-active-line-mobile{position:absolute;left:.75rem;bottom:.25rem;width:2rem;height:2px;border-radius:999px;background:#ef4444}@keyframes navLineIn{from{transform:scaleX(0);opacity:0}to{transform:scaleX(1);opacity:1}}
+
+/* Social networks: recognizable inline logos, consistent sizing and accessible contrast */
+.social-card,.social-footer{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease,background-color .25s ease}.social-card:hover,.social-footer:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(15,23,42,.12);border-color:rgba(239,68,68,.45)}.dark .social-card:hover,.dark .social-footer:hover{box-shadow:0 12px 28px rgba(0,0,0,.35);border-color:rgba(248,113,113,.45)}.social-icon{display:flex;height:3rem;width:3rem;align-items:center;justify-content:center;border-radius:1rem;background:#f1f5f9;color:#334155;transition:transform .25s ease,background-color .25s ease,color .25s ease}.social-icon svg{height:1.55rem;width:1.55rem}.social-card:hover .social-icon,.social-footer:hover .social-icon{transform:scale(1.08)}.dark .social-icon{background:#1e293b;color:#e2e8f0}.social-icon-sm{height:1.8rem;width:1.8rem;border-radius:.55rem}.social-icon-sm svg{height:1rem;width:1rem}.social-facebook:hover{background:#1877f2;color:#fff}.social-linkedin:hover{background:#0a66c2;color:#fff}.social-github:hover{background:#181717;color:#fff}.social-instagram:hover{background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045);color:#fff}.social-whatsapp:hover{background:#25d366;color:#fff}.social-footer:hover .social-icon{transform:scale(1.05)}
+
+
+/* Footer social links — only the footer presentation is customized in V5 */
+.footer-social-list{display:flex;flex-wrap:wrap;gap:.65rem}
+.footer-social-item{display:inline-flex;align-items:center;gap:.55rem;min-height:2.65rem;padding:.45rem .75rem .45rem .45rem;border:1px solid rgba(148,163,184,.28);border-radius:.85rem;background:rgba(255,255,255,.92);color:#334155;font-size:.78rem;font-weight:700;text-decoration:none;box-shadow:0 4px 14px rgba(15,23,42,.06);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease,color .2s ease,background-color .2s ease}
+.footer-social-item:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(15,23,42,.13);color:#fff}
+.footer-social-logo{display:flex;width:2rem;height:2rem;flex:0 0 2rem;align-items:center;justify-content:center;border-radius:.62rem;color:#fff}
+.footer-social-logo svg{width:1.05rem;height:1.05rem}
+.footer-social-facebook .footer-social-logo{background:#1877f2}
+.footer-social-linkedin .footer-social-logo{background:#0a66c2}
+.footer-social-github .footer-social-logo{background:#181717}
+.footer-social-instagram .footer-social-logo{background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045)}
+.footer-social-whatsapp .footer-social-logo{background:#25d366}
+.footer-social-facebook:hover{background:#1877f2;border-color:#1877f2}
+.footer-social-linkedin:hover{background:#0a66c2;border-color:#0a66c2}
+.footer-social-github:hover{background:#181717;border-color:#181717}
+.footer-social-instagram:hover{background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045);border-color:#fd1d1d}
+.footer-social-whatsapp:hover{background:#25d366;border-color:#25d366}
+html.dark .footer-social-item{background:rgba(15,23,42,.8);border-color:rgba(148,163,184,.22);color:#e2e8f0;box-shadow:0 4px 14px rgba(0,0,0,.2)}
+@media (max-width:640px){.footer-social-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem}.footer-social-item{width:100%;justify-content:flex-start}.footer-social-name{white-space:nowrap}}
