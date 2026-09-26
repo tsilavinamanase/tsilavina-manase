@@ -74,21 +74,7 @@
             <p class="mt-4 max-w-3xl leading-8 text-slate-600 dark:text-slate-300">{{ t('experienceText') }}</p>
           </article>
         </div>
-      </section>
-
-      <section id="competence" class="border-t bg-slate-100 py-24 dark:border-white/5 dark:bg-slate-900/40">
-        <div class="mx-auto max-w-7xl px-5">
-          <p class="text-sm font-bold uppercase tracking-[.25em] text-red-500">{{ t('competence') }}</p>
-          <h2 class="reveal mt-3 text-4xl font-bold">{{ t('competenceTitle') }}</h2>
-          <div class="mt-10 grid gap-6 md:grid-cols-2">
-            <div v-for="item in competenceAreas" :key="item.title" class="reveal rounded-3xl border border-slate-200 bg-white p-7 dark:border-white/10 dark:bg-slate-950">
-              <div class="text-3xl">{{ item.icon }}</div>
-              <h3 class="mt-5 text-xl font-bold">{{ item.title }}</h3>
-              <p class="mt-3 leading-7 text-slate-600 dark:text-slate-300">{{ item.text }}</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      </section>      
 
       <section id="competences" class="border-t py-24 dark:border-white/5">
         <div class="mx-auto max-w-7xl px-5">
@@ -192,8 +178,7 @@ const cleanPhone = '261349753470'
 const wa = 'https://wa.me/261349753470'
 
 const nav = [
-  ['home','#home'], ['about','#about'], ['formation','#formation'], ['experience','#experience'],
-  ['competence','#competence'], ['competences','#competences'], ['projects','#projects'], ['contact','#contact']
+  ['home','#home'], ['about','#about'], ['formation','#formation'], ['experience','#experience'], ['competences','#competences'], ['projects','#projects'], ['contact','#contact']
 ]
 
 const socials = [
@@ -207,12 +192,6 @@ const socials = [
 const education = [
   { year:'2018', title:'Baccalauréat série C', place:'Baccalauréat — série C', note:'Mention Assez Bien' },
   { year:'2020', title:'Bacc +1 en Informatique', place:'École Nationale d’Informatique (ENI), Fianarantsoa', note:'1 année universitaire en informatique' }
-]
-
-const competenceAreas = [
-  { icon:'◈', title:'Administration des systèmes et réseaux', text:'Connaissances et pratique autour de l’administration des systèmes, des réseaux et de leur environnement technique.' },
-  { icon:'⌘', title:'Développement d’applications Web et Mobile', text:'Conception et développement d’interfaces et d’applications modernes, responsives et adaptées aux différents appareils.' },
-  { icon:'⌁', title:'Cybersécurité', text:'Exploration de la cybersécurité, des bonnes pratiques de protection, de la sécurité des applications et de l’ethical hacking dans un cadre légal.' }
 ]
 
 const technicalSkills = [
