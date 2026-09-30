@@ -110,7 +110,10 @@
             <p class="text-sm font-bold uppercase tracking-[.25em] text-red-500">{{ t('contact') }}</p>
             <h2 class="mt-3 text-4xl font-bold">{{ t('contactTitle') }}</h2>
             <p class="mt-5 text-slate-600 dark:text-slate-300">{{ t('contactText') }}</p>
-            <a :href="'tel:'+cleanPhone" class="mt-8 block rounded-2xl border border-slate-200 p-4 font-semibold text-slate-800 dark:border-slate-700 dark:text-slate-100">📞 +261 34 97 534 70</a>
+            <div class="mt-8 rounded-2xl border border-slate-200 p-4 font-semibold text-slate-800 dark:border-slate-700 dark:text-slate-100">
+              📍 Antananarivo, Madagascar
+            </div>
+            <a :href="'tel:'+cleanPhone" class="mt-3 block rounded-2xl border border-slate-200 p-4 font-semibold text-slate-800 dark:border-slate-700 dark:text-slate-100">📞 +261 34 97 534 70</a>
             <a :href="wa" target="_blank" class="mt-3 block rounded-2xl border border-slate-200 p-4 font-semibold text-slate-800 dark:border-slate-700 dark:text-slate-100">💬 WhatsApp</a>
             <div class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
               <a v-for="s in socials" :key="s.name" :href="s.url" target="_blank" rel="noopener noreferrer" class="social social-card group rounded-2xl border border-slate-200 bg-white p-3 text-center text-slate-700 shadow-sm dark:border-white/10 dark:bg-slate-900/70 dark:text-slate-200">
@@ -143,7 +146,18 @@
     <footer class="border-t py-10 dark:border-white/10">
       <div class="mx-auto grid max-w-7xl gap-8 px-5 md:grid-cols-3">
         <div><b class="font-display text-xl">TSILAVINA<span class="text-red-500">.</span></b><p class="mt-3 text-sm text-slate-500 dark:text-slate-300">Mobile & Web Developer • Designer • Cybersecurity Explorer</p></div>
-        <div><b>{{ t('contact') }}</b><a :href="'tel:'+cleanPhone" class="mt-3 block text-sm text-slate-500 dark:text-slate-300">📞 +261 34 97 534 70</a><a :href="wa" target="_blank" class="mt-2 block text-sm text-slate-600 dark:text-slate-300">💬 WhatsApp</a></div>
+        <div>
+          <b>{{ t('contact') }}</b>
+          <span class="mt-3 block text-sm text-slate-500 dark:text-slate-300">
+            📍 Antananarivo, Madagascar
+          </span>
+          <a :href="'tel:'+cleanPhone" class="mt-2 block text-sm text-slate-500 dark:text-slate-300">
+            📞 +261 34 97 534 70
+          </a>
+          <a :href="wa" target="_blank" class="mt-2 block text-sm text-slate-600 dark:text-slate-300">
+            💬 WhatsApp
+          </a>
+        </div>
         <div class="footer-socials">
           <b>{{ t('socials') }}</b>
           <div class="footer-social-list mt-4">
@@ -190,8 +204,18 @@ const socials = [
 ]
 
 const education = [
-  { year:'2018', title:'Baccalauréat série C', place:'Baccalauréat — série C', note:'Mention Assez Bien' },
-  { year:'2020', title:'Bacc +1 en Informatique', place:'École Nationale d’Informatique (ENI), Fianarantsoa', note:'1 année universitaire en informatique' }
+  {
+    year:'2018',
+    title:'Baccalauréat série C',
+    place:'Madagascar',
+    note:'Mention Assez Bien'
+  },
+  {
+    year:'2020',
+    title:'Bacc +1 en Informatique',
+    place:'École Nationale d’Informatique (ENI), Fianarantsoa, Madagascar',
+    note:'1 année universitaire en informatique'
+  }
 ]
 
 const technicalSkills = [
