@@ -216,7 +216,7 @@ const D = {
   fr: {
     home:'Accueil', about:'À propos', formation:'Formation', experience:'Expérience', competences:'Compétences', projects:'Projets', contact:'Contact',
     available:'Disponible pour de nouveaux projets', hero:'Je construis des expériences', accent:'digitales mémorables.',
-    intro:'Je suis Tsilavina, Mobile & Web Developer. Je transforme des idées en applications web et mobiles modernes, rapides et responsives.', see:'Voir mes projets',
+    intro:'Je suis MANASE Tsilavina, Mobile & Web Developer. Je transforme des idées en applications web et mobiles modernes, rapides et responsives.', see:'Voir mes projets',
     aboutTitle:'Un profil à la croisée du code et du design.', aboutText:'Mon approche associe développement, sens visuel et curiosité pour la sécurité.',
     formationTitle:'Mon parcours académique.', experienceTitle:'Mon expérience professionnelle.', experienceRole:'Développement d’applications Web', experienceType:'Expérience professionnelle', experienceText:'Développement d’applications web pour l’entreprise Madagasikara Chine Education, avec une attention portée aux interfaces, à la responsivité et aux fonctionnalités de la plateforme.',
     competencesTitle:'Mes compétences techniques.', projectTitle:'Ce que je construis.', contactTitle:'Un projet en tête ?', contactText:'Parlons de votre idée et de la meilleure façon de la transformer en produit numérique.',
@@ -224,14 +224,14 @@ const D = {
   },
   en: {
     home:'Home', about:'About', formation:'Education', experience:'Experience', competences:'Skills', projects:'Projects', contact:'Contact',
-    available:'Available for new projects', hero:'I build', accent:'memorable digital experiences.', intro:'I am Tsilavina, a Mobile & Web Developer. I build modern, fast and responsive web and mobile applications.', see:'View projects',
+    available:'Available for new projects', hero:'I build', accent:'memorable digital experiences.', intro:'I am MANASE Tsilavina, a Mobile & Web Developer. I build modern, fast and responsive web and mobile applications.', see:'View projects',
     aboutTitle:'Where code meets design.', aboutText:'My approach combines development, visual thinking and security curiosity.', formationTitle:'My academic background.', experienceTitle:'My professional experience.', experienceRole:'Web Application Development', experienceType:'Professional experience', experienceText:'Web application development for Madagasikara Chine Education, with a focus on interfaces, responsiveness and platform features.',
     competencesTitle:'My technical skills.', projectTitle:'What I build.', contactTitle:'Have a project in mind?', contactText:'Tell me about your idea and how to turn it into a digital product.',
     name:'Name', phone:'Phone', email:'Email', subject:'Subject', message:'Message', send:'Send message', hint:'The button opens WhatsApp with your message prefilled.', socials:'Social networks', rights:'All rights reserved.'
   },
   zh: {
     home:'首页', about:'关于我', formation:'教育经历', experience:'工作经验', competences:'技能', projects:'项目', contact:'联系',
-    available:'目前可接新项目', hero:'打造', accent:'令人难忘的数字体验。', intro:'我是 Tsilavina，一名 Mobile & Web Developer，将想法转化为现代、快速、响应式的 Web 和移动应用。', see:'查看项目',
+    available:'目前可接新项目', hero:'打造', accent:'令人难忘的数字体验。', intro:'我是 MANASE Tsilavina，一名 Mobile & Web Developer，将想法转化为现代、快速、响应式的 Web 和移动应用。', see:'查看项目',
     aboutTitle:'代码与设计的交汇。', aboutText:'结合开发、视觉设计与安全意识，专注于清晰的界面与良好的体验。', formationTitle:'我的教育经历。', experienceTitle:'我的工作经验。', experienceRole:'Web 应用开发', experienceType:'工作经验', experienceText:'为 Madagasikara Chine Education 开发 Web 应用，重点关注界面、响应式体验和平台功能。',
     competencesTitle:'我的技术技能。', projectTitle:'我的作品。', contactTitle:'有项目想法吗？', contactText:'告诉我你的想法以及如何把它变成数字产品。',
     name:'姓名', phone:'电话', email:'邮箱', subject:'主题', message:'留言', send:'发送消息', hint:'按钮会打开 WhatsApp 并预填消息。', socials:'社交网络', rights:'版权所有。'
